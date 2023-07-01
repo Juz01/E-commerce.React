@@ -1,0 +1,9 @@
+
+@media (min-width: 1300px) {
+    .product-flex{
+        display: flex;
+        padding: 1rem;
+        justify-content: center;
+        max-width: 100%;
+    }
+}

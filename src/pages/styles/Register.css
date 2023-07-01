@@ -1,0 +1,125 @@
+.register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 800px;
+    width: 500px;
+    height: 450px;
+}
+
+.register__container{
+    width: 370px;
+    height: 520px;
+    position: absolute;
+    top: 9rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    gap: 1rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    background-color: white; 
+}
+
+.register__container::before{
+    content: "";
+    background-image: conic-gradient(
+        #f85555 20deg,
+        transparent 120deg
+    );
+    height: 190%;
+    width: 190%;
+    position: absolute;
+    left: -40%;
+    top: -45%;
+    animation: rotate 5s infinite linear;
+}
+
+.register__form{
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 2.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 20px 35px #0000004d;   
+    overflow: hidden;
+    background-color: white;
+}
+
+.register__title{
+    position: absolute;
+    top: 0.5rem;
+    left: 1.5rem;
+    width: 100%;
+    border-radius: 0.8rem;
+    height: 15%;
+    color: black;
+    border: none;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.register__label{
+    width: 20%;
+    position: absolute;
+    left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #515151;
+    font-weight: 900;
+}
+
+.register__input{
+    border: 3px solid #515151;
+    width: 85%;
+    position: absolute;
+    left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 0.2rem;
+}
+
+.register__btn{
+    position: absolute;
+    bottom: 3rem;
+    width: 85%;
+    height: 5%;
+    border: none;
+    color: white;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    background-color: #f85555;
+}
+
+.register__btn:hover{
+    cursor: pointer;
+    background-color: #d64242;
+}
+
+.register__login{
+    position: absolute;
+    bottom: 0.6rem;
+}
+
+@keyframes rotate {
+    100%{
+        transform: rotate(-360deg);
+        }
+    }

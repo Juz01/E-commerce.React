@@ -1,0 +1,48 @@
+.filter__price-title{
+    font-size: 1.1rem;
+    width: 12rem;
+    display: flex;
+    border-bottom:3px solid #ccc;
+    justify-items: space-around;
+}
+
+.price_content{
+    padding-top: 2rem;
+    padding-left: 0.5rem;
+}
+
+ 
+.filter__price-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.filter__price-formElement{
+    display: flex;
+    gap: 1rem;
+}
+
+.filter__price-inputF{
+    width: 8rem;
+    height: 1.5rem;
+}
+
+.filter__price-inputT{
+    margin-left: 1rem;
+    width: 8rem;
+    height: 1.5rem;
+}
+
+.filter__price-btn{
+    border-radius: 3px;
+    width: 8rem;
+    height: 1.8rem;
+    font-size: 1rem;
+    background-color: var(--color-red);
+    color: white;
+    font-weight:500;
+    position: relative;
+    left:26%;
+    
+}

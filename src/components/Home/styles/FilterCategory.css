@@ -1,0 +1,15 @@
+.filter__price-title{
+    font-size: 1.1rem;
+    width: 12rem;
+    display: flex;
+    border-bottom:3px solid #ccc;
+    justify-items: space-around;
+}
+
+.category_content{
+    padding-left: 1.5rem;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
