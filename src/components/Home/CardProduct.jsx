@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom'
-import './styles/CardProduct.css'
+import cartProduct from './styles/CardProduct.css'
 import { useDispatch } from 'react-redux'
 import { postCartThunk } from '../../store/slices/cart.slice'
 

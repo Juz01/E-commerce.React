@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { postCartThunk } from "../../store/slices/cart.slice"
 import { useDispatch } from "react-redux"
-import './style/SliderImg.css'
+import SliderImg from './style/SliderImg.css'
 
 
 const ProductInfo = ({ product }) => {

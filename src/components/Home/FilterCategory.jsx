@@ -2,7 +2,7 @@ import { useEffect } from "react"
 import { useDispatch } from "react-redux"
 import useFetch from "../../hooks/useFetch"
 import { getAllProductThunk } from "../../store/slices/products.slice"
-import './styles/FilterCategory.css'
+import filterCategory from './styles/FilterCategory.css'
 
 
 const FilterCategory = () => {

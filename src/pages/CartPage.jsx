@@ -1,7 +1,7 @@
 import { useSelector } from "react-redux"
-import CartElement from "../components/cart/CartElement";
+import CartElement from "../components/cart/CartElement"
 import Cart from './styles/Cart.css'
-import usePurchase from "../hooks/usePurchase";
+import usePurchase from "../hooks/usePurchase"
 
 const CartPage = () => {
 

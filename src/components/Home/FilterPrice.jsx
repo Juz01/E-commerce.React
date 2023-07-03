@@ -1,5 +1,5 @@
 import { useForm } from "react-hook-form"
-import './styles/FilterPrice.css'
+import filterPrice from './styles/FilterPrice.css'
 
 const FilterPrice = ({ setPriceMinMax, priceMinMax }) => {
 

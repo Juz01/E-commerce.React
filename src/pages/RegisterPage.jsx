@@ -1,6 +1,6 @@
 import { useForm } from "react-hook-form"
 import useAuth from "../hooks/useAuth"
-import Register from './styles/register.css'
+import Register from './styles/Register.css'
 import { Link } from "react-router-dom"
 
 

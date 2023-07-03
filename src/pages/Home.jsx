@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux'
 import CardProduct from '../components/Home/CardProduct';
 import FilterCategory from '../components/Home/FilterCategory';
 import FilterPrice from '../components/Home/FilterPrice';
-import './styles/Home.css'
+import home from './styles/Home.css'
 
 
 const Home = () => {

@@ -1,7 +1,7 @@
 import { useEffect } from "react"
 import usePurchase from "../hooks/usePurchase"
 import PurchaseCard from "../components/Purchases/PurchaseCard"
-import Purchase from "./styles/Purchases.css"
+import Purchases from "./styles/Purchases.css"
 
 const PurchasesPage = () => {
 

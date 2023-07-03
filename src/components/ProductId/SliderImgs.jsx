@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './style/SliderImg.css'
+import SliderImg from './style/Sliderimg.css'
 
 const SliderImgs = ({ product }) => {
 

@@ -1,6 +1,6 @@
 import { useForm } from "react-hook-form"
 import useAuth from "../hooks/useAuth"
-import LogIn from './styles/login.css'
+import LogIn from './styles/LogIn.css'
 import { Link } from "react-router-dom"
 
 const LoginPage = () => {

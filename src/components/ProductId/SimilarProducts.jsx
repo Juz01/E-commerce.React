@@ -1,7 +1,7 @@
 import { useEffect } from "react"
 import useFetch from "../../hooks/useFetch"
 import CardProduct from "../Home/CardProduct"
-import './style/SliderImg.css'
+import SliderImg from './style/SliderImg.css'
 
 
 const SimilarProducts = ({ product }) => {
